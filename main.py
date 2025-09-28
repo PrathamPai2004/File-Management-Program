@@ -478,6 +478,7 @@ def supplyUserInput(userAction):
                         
             
         case _:
+            
             engine.say("Invalid response")
             engine.runAndWait()
             print("!Invalid response!")
@@ -487,3 +488,4 @@ dateTime()
 welcomeTransition()
 loading()                        
 menu()
+
